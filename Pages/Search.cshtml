@@ -1,0 +1,12 @@
+﻿@page
+@model WebApplication1.Pages.SearchModel
+@{
+}
+
+<div>
+    <form class="text-center" method="post">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+    <h2 class="text-center">@Model.SearchResult</h2>
+</div>
